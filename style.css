@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(77, 115, 219, 0.548);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(17, 16, 16, 0.678);
+    color: #fff;
+    border: 6px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box{
+    border: 6px solid black;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    transform: scale(1.02);
+    background-color: blueviolet;
+}
+
