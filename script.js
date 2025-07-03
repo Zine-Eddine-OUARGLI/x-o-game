@@ -53,12 +53,11 @@ function checkIsOver(){
             gameOver = true;
             alert("Player "+ player +" wins!");
         }
-        else if(!board.includes("")){
+    });
+    if(!board.includes("") && !gameOver){
             gameOver = true;
             alert("It's a draw!");
-        }
-    });
-
+    }
 }
 
 
