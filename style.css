@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(77, 115, 219, 0.548);
@@ -37,3 +38,17 @@ body{
     background-color: blueviolet;
 }
 
+button{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.705);
+    background-color: rgba(0, 0, 0, 0.685);
+    text-align: center;
+    font-family: Helvetica;
+}
+
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
